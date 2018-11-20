@@ -12,17 +12,17 @@ Start with this webpage, which has several input elements and a button:
  </head>
  <body>
  
- <h1>Mad Libs</h1>
+ <h1 style="background-color: blue" >Mad Libs</h1>
  
  <ul>
-  <li>Noun: <input type="text" id="noun">
+  <li >Noun: <input type="text" id="noun">
   <li>Adjective: <input type="text" id="adjective">
   <li>Someone's Name: <input type="text" id="person">
  </ul>
  
  <button id="lib-button">Lib it!</button>
   
- <div id="story"></div>
+ <div id="story" style="height: 200px;"></div>
   
  </body>
 </html>
