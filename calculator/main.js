@@ -41,7 +41,7 @@ var areaButton = document.querySelector('#area-button');
 function getArea(){
     var getNum = document.querySelector('#area-input').value;
     var newPTag = document.createElement('p');
-    var area = Math.floor(getNum * getNum * Math.PI);
+    var area = getNum * getNum * Math.PI;
     var result =  document.createTextNode(`The area of circle with radius ${getNum} = ${area}`);
 
     newPTag.appendChild(result);
