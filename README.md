@@ -1,4 +1,4 @@
-# Exercises: Events
+# HW-W02DD03 - Events
 
 ## Mad Libs
 
