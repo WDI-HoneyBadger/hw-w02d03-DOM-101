@@ -3,7 +3,7 @@ console.log('connected');
 //Square this number
 var calNum =document.querySelector('#square-input');
 var calButton = document.querySelector('#square-button');
-var calSolution = document.querySelector('#solution');
+var solution = document.querySelector('#solution');
 
 
 function calculator(){
@@ -14,7 +14,7 @@ console.log(calInputNum);
 var newCalTag = document.createElement('p');
 var nweCalText = document.createTextNode(calInputNum);
 newCalTag.appendChild(nweCalText);
-calSolution.appendChild(newCalTag);
+solution.appendChild(newCalTag);
 }
 
 
@@ -34,7 +34,7 @@ console.log(halfInputNum);
 var newHalfTag = document.createElement('p');
 var nweHalfText = document.createTextNode(halfInputNum);
 newHalfTag.appendChild(nweHalfText);
-calSolution.appendChild(newHalfTag);
+solution.appendChild(newHalfTag);
 }
 
 
@@ -53,7 +53,7 @@ console.log(radiusInputNum);
 var newAreaTag = document.createElement('p');
 var newAreaText = document.createTextNode(radiusInputNum);
 newAreaTag.appendChild(newAreaText);
-calSolution.appendChild(newAreaTag);
+solution.appendChild(newAreaTag);
 
 }
 
