@@ -62,7 +62,7 @@ Start with this webpage, which has inputs and buttons for things to calculate:
   <button id="area-button">Calculate</button> 
   <br><br>
   <div id="solution"></div>
-
+  
   
 </body>
 </html>

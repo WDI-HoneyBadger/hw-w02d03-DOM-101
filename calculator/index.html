@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Calculator</title>
+</head>
+<body>
+
+  <label>Square this number:
+    <input type="number" id="square-input" size="2">
+   
+  </label>
+  <button id="square-button">Calculate</button>
+   
+  <br><br>
+  
+  <label>Half this number:
+    <input type="number" id="half-input" size="2">
+  </label>
+  <button id="half-button">Calculate</button>
+  <br><br>
+  
+  <label>Calculate area of circle with radius:
+    <input type="number" id="area-input" size="2">
+  </label>
+  <button id="area-button">Calculate</button> 
+  <br><br>
+  <div id="solution">
+<script>
+        function square(number) {
+            var squaren = number * number;
+           console.log("sqare = "+square)
+            return squaren;
+        }
+        
+        function half(number) {
+            var halfn = number/2;
+            console.log("half number = "+half)
+            return halfn;
+        }
+        
+        function area(radius) {
+            var arean =(radius*radius*Math.PI)
+           console.log("area of circle = "+radius+" is "+area)
+            return arean;
+        }
+            </script>
+   
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
